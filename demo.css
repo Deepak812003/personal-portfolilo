@@ -1,0 +1,47 @@
+body{
+    overflow-x: hidden;
+   
+}
+#about{
+text-indent: 200px;
+text-align: justify;
+}
+li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#info{
+    align-content: center;
+    text-align: end;
+    font-size: 30px;
+}
+#form input{
+    height: 40px;
+    
+}
+#education{
+    color:white
+}
+#card:hover{
+    transform: scale(1.1);
+}
+.nav-link:hover{
+  border-bottom: 2px solid green;
+   color: aliceblue;
+}
+#info{
+   animation: info 4s linear forwards ;
+}
+@keyframes info {
+   0%{
+    opacity: 0;
+    transform: rotateY(60deg);
+    filter: blur(10px);
+   }
+   100%{
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0px);
+   }
+}
+
